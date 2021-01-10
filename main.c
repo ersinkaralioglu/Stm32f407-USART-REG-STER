@@ -50,7 +50,7 @@ int main(void)
 	uart2config();
 while(1)
 {
-UART2_SendString ("hello world from controllerstech\n");
+UART2_SendString ("ersinkaralioglu-uart-register-kodlama");
 		Delay_ms (1000);
 uint8_t data = UART2_GetChar ();
 	UART2_SendChar (data);
